@@ -134,13 +134,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
             }
 
-//============================================================================ 
-if(!isOwerner && config.MODE === "private") return 
-if(!isOwerner && isGroup && config.MODE === "inbox") return
-if(!isOwerner && !isGroup && config.MODE === "groups") return 
-//=====================================================
         
-
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
 if (isCmd) {
