@@ -2,7 +2,6 @@ const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
 const yts = require('yt-search')
 
-return ${Math.floor(Math.random() * 10000)}${ext};
 cmd({
     pattern: "song",
     desc: "download song",
