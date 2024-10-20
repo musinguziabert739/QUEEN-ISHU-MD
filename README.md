@@ -9,7 +9,7 @@
     <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="700px">
 
 
-<a href="https://whatsapp.com/channel/0029VaeyMWv3QxRu4hA6c33Z"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
+<a href="(https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e)"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
 
 ## 1. FORK REPOSITORY
