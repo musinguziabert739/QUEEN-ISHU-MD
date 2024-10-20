@@ -2,10 +2,10 @@
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ+ＣＲＥＡＴ+ＢＹ+ＬＡＫＳＩＤＵ+ＯＦＦＣＩＡＬ)](https://git.io/typing-svg)
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="200" width="100%">
 
 <p align="center">
-<a href="https://github.com/ASITHA-MD/ASITHA-MD">
+<a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD">
     <img src="https://i.imgur.com/LTVGRX8.jpeg"width="700px">
 </a>
 
@@ -28,25 +28,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://img.shields.io/github/repo-size/ASITHA-MD/ASITHA-MD?color=purple&label=Repo%20Size&style=plastic">
-
-  </a>
-  <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://img.shields.io/github/license/ASITHA-MD/ASITHA-MD?color=purple&label=License&style=plastic">
-
-  </a>
-  <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://img.shields.io/github/languages/top/ASITHA-MD/ASITHA-MD?color=purple&label=Javascript&style=plastic">
-
-  </a>
-  <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://img.shields.io/static/v1?label=Author&message=Asitha%20Chathuranga&color=purple&style=plastic">
-
-  </a>
-  </p>
-</p>
 
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 01</b>
