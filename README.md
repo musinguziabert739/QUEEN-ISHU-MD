@@ -1,10 +1,31 @@
 
+<div align="center">
+
+
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
+<img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
+
+<p align="center">
+<a href="https://github.com/ASITHA-MD/ASITHA-MD">
+    <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="700px">
+
+
+<a href="https://whatsapp.com/channel/0029VaeyMWv3QxRu4hA6c33Z"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
+
 
 ## 1. FORK REPOSITORY
 <a href = "https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"> <img src = "/repo-data/fork-elisa-repo-button.svg" width="150" height="70" > </a>
 </br>
 
 ## 2. GET SESSION ID
+
+<hr>
+<b>GET SESSION ID VIA PAIR CODE 02</b>
+
+<a href='https://willing-gertrude-asitha-4de0249e.koyeb.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+
+
 <!--
 <a href = "https://gpt-qr-code.onrender.com/elisa"> <img src = "/repo-data/elisa scan qr code.svg" width="150" height="70" > </a></br>
     OR   
