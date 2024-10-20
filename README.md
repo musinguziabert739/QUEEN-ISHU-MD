@@ -10,9 +10,9 @@
     <img src="https://i.postimg.cc/zvpdnfsK/1727229710389.jpg"  width="700px">
 </a>
 
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBlue&color=F01&lines=QUEEN+ISHU+BOT+CRATE+BY+LAKSIDU)](https://git.io/typing-svg)
 
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=QUEEN+ISHU+BOT+CRATE+BY+LAKSIDU+0FFICIAL)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBlue&color=F01&lines=QUEEN+ISHU+BOT+DISIGN+BY+ADITHYA)](https://git.io/typing-svg)
 
 
 <hr>
