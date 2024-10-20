@@ -21,7 +21,7 @@
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
 
-<a href='https://willing-gertrude-asitha-4de0249e.koyeb.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://pairecode2-36eda5c1c846.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 
 
@@ -32,10 +32,8 @@
 </br>
     OR
     -->
-[`TELEGRAM BOT`](https://t.me/queen_elisa_pair_bot)
-
 ## Deploy.
- [![nima](https://img.shields.io/badge/elisa_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://heroku.com/deploy?template=https://github.com/darkmakerofc/QueenElisa)
+ [![nima](https://img.shields.io/badge/elisa_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
   
 
 
