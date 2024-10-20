@@ -1,19 +1,16 @@
 <div align="center">
 
-
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ+ＣＲＥＡＴ+ＢＹ+ＬＡＫＳＩＤＵ+ＯＦＦＣＩＡＬ)](https://git.io/typing-svg)
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 <p align="center">
 <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://i.postimg.cc/zvpdnfsK/1727229710389.jpg"  width="700px">
+    <img src="https://i.imgur.com/LTVGRX8.jpeg"width="700px">
 </a>
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBlue&color=F01&lines=QUEEN+ISHU+BOT+CRATE+BY+LAKSIDU)](https://git.io/typing-svg)
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBlue&color=F01&lines=QUEEN+ISHU+BOT+DISIGN+BY+ADITHYA)](https://git.io/typing-svg)
-
 
 <hr>
  <p align="center">
