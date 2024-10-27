@@ -1,4 +1,4 @@
-//Created by Sadeesha Coder 🙋
+/////CREATE BY MAHESH OFFICIAL/////////////////
 
 const {cmd , commands} = require('../command')
 const yts = require('yt-search')
@@ -17,26 +17,26 @@ if(!q) return reply("*Please give me a title*")
 let search = await yts(q)
 let link = search.all[0].url
 let desc = `
-*──────────────────*
-_*🌸 VIDEO DＯＷＮＬＯＤＥＲ 🌸*_
-*──────────────────*
+*======================*
+_*💛 QUEEN-ISHU-VIDEO DOWNLOADER💛*_
+*======================*
 
-🌸 *Title :* ${search.all[0].title}
+💛 *Title :* ${search.all[0].title}
 
-🌸 *Description :* ${search.all[0].description}
+💛 *Description :* ${search.all[0].description}
 
-🌸 *Duration :* ${search.all[0].timestamp}
+💛 *Duration :* ${search.all[0].timestamp}
 
-🌸 *Ago :* ${search.all[0].ago}
+💛 *Ago :* ${search.all[0].ago}
 
-🌸 *Views :* ${search.all[0].views}
+💛 *Views :* ${search.all[0].views}
 
-🌸 *URL :* ${search.all[0].url}
+💛 *URL :* ${search.all[0].url}
 
-_📤ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ꜰɪʟʟ📤_
+_💛PLEASE WAITE YOU VIDEO 💛_
 
 
-> ALEXA-MD
+> ====QUEEN-ISHU-MD
 `
 
 await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
@@ -47,7 +47,7 @@ await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},
 await conn.sendMessage(from, {
   video: {url: data.result.downloadLink},
 mimetype: "video/mp4",
- fileName: `${data.result.title}.mp4`,caption: `*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·* 🧑🏻‍💻`}, { quoted: mek })
+ fileName: `${data.result.title}.mp4`,caption: `*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·* 💛`}, { quoted: mek })
 
 }catch(e){
     console.log(e)
@@ -55,3 +55,4 @@ mimetype: "video/mp4",
 }
 }
 )
+/////////////////////////////////////////////////////////////////////
