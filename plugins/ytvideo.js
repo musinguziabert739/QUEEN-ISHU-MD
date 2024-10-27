@@ -1,4 +1,4 @@
-/////CREATE BY MAHESH OFFICIAL/////////////////
+/////CREATE BY MAHESH OFFICIAL////////////////////
 
 const {cmd , commands} = require('../command')
 const yts = require('yt-search')
