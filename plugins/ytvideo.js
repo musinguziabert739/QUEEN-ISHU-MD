@@ -31,10 +31,10 @@ _*💛 LAKIYA ＳＯＮＧ ＤＯＷＮＬＯＤＥＲ 💛*_
 
 💛 *URL :* ${search.all[0].url}
 
-_📤ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ꜰɪʟʟ📤_
+_💛 PLEASE WAITE 💛_
 
 
-
+QUEEN-ISHU-MD
 `
 
 await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
