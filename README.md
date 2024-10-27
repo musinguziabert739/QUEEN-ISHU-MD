@@ -8,7 +8,7 @@
 <a href="https://github.com/ASITHA-MD/ASITHA-MD">
     <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="700px">
 
-///////////////CREATE BY=LAKSIDU NIMSARA MAHESH/////////////////
+///////////////CREATE BY=LAKSIDU NIMSARA MAHESH//////////////////
 
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
