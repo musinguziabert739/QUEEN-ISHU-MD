@@ -1,5 +1,3 @@
-//Created by LAKSIDU Coder 🙋
-
 const {cmd , commands} = require('../command')
 const yts = require('yt-search')
 const { fetchJson } = require("../lib/functions")
@@ -17,9 +15,9 @@ if(!q) return reply("*Please give me a title*")
 let search = await yts(q)
 let link = search.all[0].url
 let desc = `
-*──────────────────*
+
 _*💛 LAKIYA ＳＯＮＧ ＤＯＷＮＬＯＤＥＲ 💛*_
-*──────────────────*
+
 
 💛 *Title :* ${search.all[0].title}
 
@@ -36,7 +34,7 @@ _*💛 LAKIYA ＳＯＮＧ ＤＯＷＮＬＯＤＥＲ 💛*_
 _📤ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ꜰɪʟʟ📤_
 
 
-> QUEEN-ISHI-MD
+
 `
 
 await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
@@ -47,7 +45,7 @@ await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},
 await conn.sendMessage(from, {
   video: {url: data.result.downloadLink},
 mimetype: "video/mp4",
- fileName: `${data.result.title}.mp4`,caption: `*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ LAKSIDU NIMSARA · · ·* 🧑🏻‍💻`}, { quoted: mek })
+ fileName: `${data.result.title}.mp4`,caption: `*laksidu nimsara* 🧑🏻‍💻`}, { quoted: mek })
 
 }catch(e){
     console.log(e)
