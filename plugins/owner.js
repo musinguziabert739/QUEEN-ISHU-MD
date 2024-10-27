@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 const { exec } = require('child_process');
 const fs = require("fs");
 
-// 4. Block User
+/// 4. Block User
 cmd({
     pattern: "block",
     desc: "Block a user.",
