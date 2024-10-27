@@ -41,18 +41,6 @@
 
 
 
-
-</b>
-</details>
-
-<!-- Contact Owner -->
-<b><details><summary>Contact Owner 😜</summary></b>
-
-## ```Connect With Me```
-<p align="center">
-<a href="https://wa.me/94771470396"><img src="https://www.svgrepo.com/show/122874/whatsapp.svg" width="100"/>
-</p>
-
 </details>
 
 <p align="center">
