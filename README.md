@@ -29,7 +29,7 @@
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
 
-<a href='https://pairecode2-36eda5c1c846.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://pair-web-public.koyeb.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 ///////////CREATE BY=LAKSIDU NIMSARA MAHESH/////////////////
 <!--
