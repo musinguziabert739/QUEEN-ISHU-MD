@@ -5,7 +5,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
 
 <p align="center">
- <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="5000px">
+ <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="450px">
 
 ///////////////CREATE BY=LAKSIDU NIMSARA MAHESH//////////////////
 
