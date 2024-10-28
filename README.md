@@ -5,8 +5,8 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
 
 <p align="center">
-<a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="700px">
+
+    <img src="https://i.imgur.com/LTVGRX8.jpeg"  width="100px">
 
 ///////////////CREATE BY=LAKSIDU NIMSARA MAHESH//////////////////
 
