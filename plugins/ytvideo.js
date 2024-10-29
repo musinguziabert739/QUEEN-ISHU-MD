@@ -1,5 +1,3 @@
-/////CREATE BY MAHESH OFFICIAL////////////////////
-
 const {cmd , commands} = require('../command')
 const yts = require('yt-search')
 const { fetchJson } = require("../lib/functions")
@@ -55,4 +53,3 @@ mimetype: "video/mp4",
 }
 }
 )
-/////////////////////////////////////////
