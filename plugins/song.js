@@ -4,9 +4,9 @@ const { fetchJson } = require("../lib/functions")
 
 cmd({
     pattern: "song",
-    desc: "downlode song",
+    desc: "downlode videos",
     category: "downlode",
-    react: "💛",
+    react: "🎬",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -41,6 +41,12 @@ await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},
 
 
         let data = await fetchJson (`https://api.dreaded.site/api/ytdl/video?url=${link}`)
+
+await conn.sendMessage(from, {
+ 
+}catch(e){
+    console.log(e)
+    reply(`${e}`)
 }
 }
 )
