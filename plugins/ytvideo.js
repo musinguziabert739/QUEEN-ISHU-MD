@@ -1,3 +1,5 @@
+
+
 const {cmd , commands} = require('../command')
 const yts = require('yt-search')
 const { fetchJson } = require("../lib/functions")
@@ -15,9 +17,9 @@ if(!q) return reply("*Please give me a title*")
 let search = await yts(q)
 let link = search.all[0].url
 let desc = `
-*======================*
-_*💛 QUEEN-ISHU-VIDEO DOWNLOADER💛*_
-*======================*
+*==================*
+_*💛 QUEEN ISHU VIDEO DOWNLOADER 💛*
+*===================*
 
 💛 *Title :* ${search.all[0].title}
 
@@ -31,10 +33,10 @@ _*💛 QUEEN-ISHU-VIDEO DOWNLOADER💛*_
 
 💛 *URL :* ${search.all[0].url}
 
-_💛PLEASE WAITE YOU VIDEO 💛_
+_💛LAKSIDU NIMSARA MAHESH💛_
 
 
-> ====QUEEN-ISHU-MD
+> QUEEN ISHU MD
 `
 
 await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
@@ -45,7 +47,7 @@ await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},
 await conn.sendMessage(from, {
   video: {url: data.result.downloadLink},
 mimetype: "video/mp4",
- fileName: `${data.result.title}.mp4`,caption: `* @ CREATE BY LAKSIDU NIMSARA* 💛`}, { quoted: mek })
+ fileName: `${data.result.title}.mp4`,caption: `*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·* 💛`}, { quoted: mek })
 
 }catch(e){
     console.log(e)
