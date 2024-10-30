@@ -1,1 +1,59 @@
-const { cmd } = require('../command'); const yts = require('yt-search'); const { fetchJson } = require('../lib/functions'); const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs'); const formatViews = views => views >= 1_000_000_000 ? `${(views / 1_000_000_000).toFixed(1)}B` : views >= 1_000_000 ? `${(views / 1_000_000).toFixed(1)}M` : views >= 1_000 ? `${(views / 1_000).toFixed(1)}K` : views.toString(); const thumbnailUrl = 'https://i.imgur.com/LTVGRX8.jpeg'; cmd({ pattern: "yts", alias: ["yta","ytv","yt"], desc: "Search and display up to 100 YouTube video details", category: "search", filename: __filename }, async (conn, mek, m, { from, q, reply }) => { try { if (!q) return reply("Please type a Name or Url... 💛"); const search = await yts(q); const videos = search.videos.slice(0, 100); if (videos.length === 0) return reply("No videos found for your query."); let message = `*${sensitiveData.lflflflf} 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗥𝗲𝘀𝘂𝗹𝘁 💛*\n\n`; videos.forEach((data, index) => { message += `*No - ${index + 1} ⤵*\n`; message += `💛 *𝗧𝗶𝘁𝗹𝗲*: _${data.title}_\n`; message += `💛 *𝗖𝗵𝗮𝗻𝗻𝗲𝗹*: _${data.author.name}_\n`; message += `💛 *𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻*: _${data.description}_\n`; message += `💛 *𝗧𝗶𝗺𝗲*: _${data.timestamp}_\n`; message += `💛 *𝗔𝗴𝗼*: _${data.ago}_\n`; message += `💛 *𝗩𝗶𝗲𝘄𝘀*: _${formatViews(data.views)}_\n`; message += `💛 *𝗟𝗶𝗻𝗸*: ${data.url}\n\n`; }); message += `*𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗩𝗶𝗱𝗲𝗼 𝗢𝗿 𝗔𝘂𝗱𝗶𝗼 💛*\n\n`; message += `Example -  .video (enter video title)\n`; message += `Example - .song (enter video title)\n\n`; message += `${sensitiveData.kfkfkfk}`; await conn.sendMessage(from, { image: { url: thumbnailUrl }, caption: message }, { quoted: mek }); await conn.sendPresenceUpdate('recording', from); await conn.sendMessage(from, { audio: { url: 'https://github.com/themiyadilann/DilaMD-Media/raw/main/voice/song.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek }); await conn.sendMessage(from, { audio: { url: 'https://github.com/themiyadilann/DilaMD-Media/raw/main/voice/video.mp3' }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek }); } catch (e) { console.log(e); reply(`Error: ${e.message}`); } });
+const {cmd , commands} = require('../command')
+const fg = require('api-dylux')
+const yts = require('yt-search')
+
+
+cmd({
+    pattern: "video",
+    desc: "downlode videos",
+    category: "downlode",
+    react: "🎬",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if(!q) return reply("*Please give me a title*")
+const search = await yts(q)
+const data = search.video[0];
+const url = data.url
+
+let desc = `
+*===================*
+_*💛 VIDEO DＯＷＮＬＯＤＥＲ 💛*_
+*==================*
+
+💛 *Title :* ${search.all[0].title}
+
+💛 *Description :* ${search.all[0].description}
+
+💛 *Duration :* ${search.all[0].timestamp}
+
+💛 *Ago :* ${search.all[0].ago}
+
+💛 *Views :* ${search.all[0].views}
+
+💛 *URL :* ${search.all[0].url}
+
+_💛ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ꜰɪʟʟ💛_
+
+
+> QUEEN ISHU MD
+`
+
+await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
+
+
+let down = await fg.ytv(url)
+let downloadUrl = down.dl_url
+
+
+await conn.sendMessage(from, {
+  video: {url: downloadUrl},
+mimetype: "video/mp4"},{quoted:mek}) 
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+}
+)
