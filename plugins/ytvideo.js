@@ -37,8 +37,8 @@ let message = `‎‎           🎶 YT SONG DOWNLOADER 🎶
 await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message }, { quoted : mek })
   
 // SEND AUDIO NORMAL TYPE and DOCUMENT TYPE
-await conn.sendMessage(from, { video: { url: ytdl.result.dl_link }, mimetype: "video/mpeg" }, { quoted: mek })
-await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "video/mpeg", fileName: data.title + ".mp3", caption: `${data.title}`}, { quoted: mek })
+await conn.sendMessage(from, { video: { url: ytdl.result.dl_link }, mimetype: "video/mpe4" }, { quoted: mek })
+await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "video/mp4", fileName: data.title + ".mp3", caption: `${data.title}`}, { quoted: mek })
   
 } catch(e){
 console.log(e)
