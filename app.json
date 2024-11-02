@@ -1,7 +1,7 @@
 {
-  "name": "Alexa(main)",
-  "description": "Simple Whatsapp Bot.You Can Esy Deploy📲",
-  "logo": "Empty",
+  "name": "QUEEN-ISHU(main)",
+  "description": "Simple Whatsapp Bot.",
+  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
   "success_url": "/",
 
