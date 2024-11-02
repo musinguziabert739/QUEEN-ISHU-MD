@@ -11,19 +11,19 @@
       "required": false
     },
 
-"AUTO_READ_STATUS": {
-      "description": "true or false",
-      "required": false
+      "AUTO_READ_STATUS": {
+       "description": "true or false",
+         "required": false
 
-},
+     },
 
-"MODE": {
-      "description": "priver/public",
-      "required": false
+      "MODE": {
+         "description": "priver/public",
+            "required": false
 
-}
+     }
 
-  }
+  },
 
      "buildpacks": [
         {
