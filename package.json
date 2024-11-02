@@ -1,14 +1,14 @@
 {
-  "name": "QUEEN ISHU MD",
+  "name": "alexa",
   "version": "1.0.0",
-  "description": "A WhatsApp bot created using Node.js",
+  "description": "Alexa WhatsApp bot created Sadeesha With using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ishubot",
-    "stop": "pm2 stop ishubot",
-    "restart": "pm2 restart ishubot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
+    "stop": "pm2 stop wabot",
+    "restart": "pm2 restart wabot"
   },
- "dependencies": {
+  "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "pino": "^7.0.5",
@@ -27,6 +27,6 @@
     "api-dylux": "1.8.5",
     "google-tts-api":"2.0.2",
     "wa-sticker-formatter":"4.4.4",
-    "gifted-dls":"1.2.2""
+    "gifted-dls":"1.2.2"
   }
 }
