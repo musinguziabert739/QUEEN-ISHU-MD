@@ -21,10 +21,9 @@
       "description": "priver/public",
       "required": false
 
-},
+}
 
-  
-},
+  }
 
      "buildpacks": [
         {
