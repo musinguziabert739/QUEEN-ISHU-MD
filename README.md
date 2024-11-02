@@ -37,7 +37,7 @@
     OR
     -->
 ## Deploy.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
+ [![nima](https://img.shields.io/badge/elisa_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
 
 </details>
 
