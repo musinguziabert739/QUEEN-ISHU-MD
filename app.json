@@ -1,23 +1,26 @@
 {
-  "name": "Alexa(main)",
-  "description": "Simple Whatsapp Bot.You Can Esy Deploy📲",
-  "logo": "Empty",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+  "name": "QUEEN-ISHU-MD",
+  "description": "hi am ishu md creat by laksidu",
+  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
+  "keywords": ["bot"],
   "success_url": "/",
 
-  
+  "env": {
     "SESSION_ID": {
-      "description": "Put Your SESSION ID",
+      "description": "Add QUEEN ISHU Session ID",
       "required": false
     },  
-  
+
+        "MONGODB": {
+      "description": "Put your Mongodb url",
+      "required": true
+    }   
+},
 
      "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-22"
-  
-  
+  "stack": "heroku-24"
 }
