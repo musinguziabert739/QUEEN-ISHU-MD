@@ -9,8 +9,8 @@
     "SESSION_ID": {
       "description": "Put Your SESSION ID",
       "required": false
-    },  
-  
+    }  
+  },
 
      "buildpacks": [
         {
