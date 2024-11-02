@@ -1,21 +1,16 @@
 {
-  "name": "QUEEN-ISHU-MD",
-  "description": "hi am ishu md creat by laksidu",
-  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
-  "keywords": ["bot"],
+  "name": "Alexa(main)",
+  "description": "Simple Whatsapp Bot.You Can Esy Deploy📲",
+  "logo": "Empty",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
   "success_url": "/",
 
-  "env": {
+  
     "SESSION_ID": {
-      "description": "Add QUEEN ISHU Session ID",
+      "description": "Put Your SESSION ID",
       "required": false
     },  
-
-        "MONGODB": {
-      "description": "Put your Mongodb url",
-      "required": true
-    }   
-},
+  
 
      "buildpacks": [
         {
@@ -23,4 +18,6 @@
         }
      ],
   "stack": "heroku-22"
+  
+  
 }
