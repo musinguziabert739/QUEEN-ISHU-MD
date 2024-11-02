@@ -32,7 +32,7 @@ let desc = `
 
 *ස්තූතිය....!*
 
-@CRATE BY LAKSIDU NIMSARA
+*@CRATE BY LAKSIDU NIMSARA*
 
 > QUEEN-ISHU-MD
 `
