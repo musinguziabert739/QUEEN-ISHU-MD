@@ -1,26 +1,23 @@
 {
-  "name": "QUEEN-ISHU-MD",
-  "description": "hi am ishu md creat by laksidu",
+  "name": "QUEEN-ISHU(main)",
+  "description": "LAKSIDU NIMSARA",
   "logo": "https://i.imgur.com/LTVGRX8.jpeg",
-  "keywords": ["bot"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
   "success_url": "/",
 
-  "env": {
+  
     "SESSION_ID": {
-      "description": "Add QUEEN ISHU Session ID",
+      "description": "Put Your SESSION ID",
       "required": false
     },  
-
-        "": {
-      "",
-      "": true
-    }   
-},
+  
 
      "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-24"
+  "stack": "heroku-22"
+  
+  
 }
