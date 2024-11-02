@@ -1,23 +1,20 @@
 {
-  "name": "QUEEN-ISHU(main)",
-  "description": "Simple Whatsapp Bot.",
+  "name": "QUEEN-ISHU-MD",
+  "description": "hi am ishu md creat by laksidu",
   "logo": "https://i.imgur.com/LTVGRX8.jpeg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+  "keywords": ["bot"],
   "success_url": "/",
 
-  
+  "env": {
     "SESSION_ID": {
-      "description": "Put Your SESSION ID",
+      "description": "Add QUEEN ISHU Session ID",
       "required": false
     },  
-  
 
      "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-22"
-  
-  
+  "stack": "heroku-24"
 }
