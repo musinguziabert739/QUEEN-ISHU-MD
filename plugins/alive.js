@@ -34,7 +34,7 @@ let desc = `
 
 > QUEEN-ISHU-MD
 `
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/zQg9dzm/IMG-20241025-WA0018.jpg`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/LTVGRX8.jpeg`},caption: desc},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
