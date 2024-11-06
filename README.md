@@ -22,6 +22,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <br>
 
+【﻿ＣＲＡＴＥ　ＢＹ　ＬＡＫＳＩＤＵ　ＮＩＭＳＡＲＡ】
 
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
