@@ -5,7 +5,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
 
 <p align="center">
- <img src="https://i.imgur.com/5RuBRpp.jpeg"  width="450px">
+ <img src="https://i.imgur.com/9nNY1r6.jpeg"  width="450px">
 
 /🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀/
 
