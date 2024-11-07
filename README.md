@@ -13,6 +13,12 @@
 
 
 
+</details>
+<hr>
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
+<hr>
+
+
 ## 1. FORK REPOSITOR
 
 
@@ -23,6 +29,13 @@
 <br>
 
 【﻿ＣＲＡＴＥ　ＢＹ　ＬＡＫＳＩＤＵ　ＮＩＭＳＡＲＡ】
+
+
+</details>
+<hr>
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
+<hr>
+
 
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
@@ -51,7 +64,7 @@
 
 </details>
 <hr>
-<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Nimsara_Min" alt="">
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
 
 **🎀🎀🎀🎀🎀🎀🎀FREE DEPLOY WORKFLOWS🎀🎀🎀🎀🎀🎀🎀**
@@ -90,3 +103,10 @@ jobs:
     - name: Start application
       run: npm start
 ```
+
+
+</details>
+<hr>
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
+<hr>
+
