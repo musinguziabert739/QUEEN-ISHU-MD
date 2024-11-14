@@ -1,27 +1,19 @@
 
 <div align="center">
-
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+)](https://git.io/typing-svg)
 <img src="https://i.imgur.com/dBaSKWF.gif" height="330" width="100%">
-
 <p align="center">
  <img src="https://i.imgur.com/EecdLlr.jpeg"  width="600px">
 
 /🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀/
-
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
-
-
 
 </details>
 <hr>
 <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
 
-
 ## 1. FORK REPOSITOR
-
-
 
 <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK VAJIRA MD REPO" width="150"></a>
 </br>
