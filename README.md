@@ -1,13 +1,13 @@
 
 <div align="center">
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+)](https://git.io/typing-svg)
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="330" width="100%">
 
 <p align="center">
  <img src="https://i.imgur.com/EecdLlr.jpeg"  width="600px">
 
 /🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀/
+
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
 </details>
