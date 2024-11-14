@@ -2,10 +2,10 @@
 <div align="center">
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=ＱＵＥＥＮ+ＩＳＨＵ+ＭＤ+)](https://git.io/typing-svg)
-<img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="330" width="100%">
 
 <p align="center">
- <img src="https://i.imgur.com/EecdLlr.jpeg"  width="700px">
+ <img src="https://i.imgur.com/EecdLlr.jpeg"  width="1000px">
 
 /🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀/
 
