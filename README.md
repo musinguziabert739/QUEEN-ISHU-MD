@@ -65,8 +65,8 @@
 <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
 
-*🎀🎀🎀🎀🎀🎀🎀FREE DEPLOY WORKFLOWS🎀🎀🎀🎀🎀🎀🎀*
-
+**🎀🎀🎀🎀🎀🎀🎀FREE DEPLOY WORKFLOWS🎀🎀🎀🎀🎀🎀🎀**
+```
 name: Node.js CI
 
 on:
@@ -100,10 +100,4 @@ jobs:
 
     - name: Start application
       run: npm start
-
-
-
-</details>
-<hr>
-<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
-<hr>
+```
