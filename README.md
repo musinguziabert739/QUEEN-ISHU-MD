@@ -3,7 +3,7 @@
 
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+QUEEN-ISHU-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY;LAKSIDU+OFFICIAL." alt="Typing SVG" /></a>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="130" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="230" width="100%">
 
 <p align="center">
  <img src="https://i.imgur.com/AYrYxhX.jpeg"  width="450px">
