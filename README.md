@@ -3,13 +3,13 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+QUEEN-ISHU-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY;LAKSIDU+OFFICIAL." alt="Typing SVG" /></a>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="230" width="100%">
-
+🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀
 <p align="center">
  <img src="https://i.imgur.com/AYrYxhX.jpeg"  width="450px">
 
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
-
+🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀
 ## 1. FORK REPOSITOR
 
 
