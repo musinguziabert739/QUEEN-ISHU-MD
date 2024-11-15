@@ -1,17 +1,13 @@
 
 <div align="center">
 
-
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+QUEEN-ISHU-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY;LAKSIDU+OFFICIAL." alt="Typing SVG" /></a>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="230" width="100%">
 
 <p align="center">
  <img src="https://i.imgur.com/AYrYxhX.jpeg"  width="450px">
 
-
-
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
-
 
 
 ## 1. FORK REPOSITOR
@@ -20,7 +16,7 @@
 
 <a href="https://github.com/SACHIYAOFFICIAL/SACHIYA-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK VAJIRA MD REPO" width="150"></a>
 </br>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="200" width="100%">
 <br>
 
 
