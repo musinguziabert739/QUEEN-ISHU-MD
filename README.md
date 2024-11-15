@@ -35,14 +35,12 @@
        <hr>
 <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="230" width="100%">
 
 <hr>
 <b>GET SESSION ID VIA PAIR CODE 02</b>
 
 <a href='https://queen-ishu-piar-ad05e779f6bb.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="230" width="100%">
 <!--
 <a href = "https://gpt-qr-code.onrender.com/elisa"> <img src = "/repo-data/elisa scan qr code.svg" width="150" height="70" > </a></br>
     OR   
