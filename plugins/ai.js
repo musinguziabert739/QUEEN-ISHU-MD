@@ -13,7 +13,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let data = await fetchJson(`https://chatgptforprabath-md.vercel.app/api/gptv1?q=${q}`)
-return reply(`${data.data}`)
+return reply(`${data.data}
+
+> QUEEN ISHU MD
+
+*CREATE BY LAKSIDU NIMSARA*`)
 }catch(e){
 console.log(e)
 reply(`${e}`)
