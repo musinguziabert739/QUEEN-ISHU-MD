@@ -28,7 +28,7 @@
   ## 1. FORK REPOSITOR
 
 
- <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK VAJIRA MD REPO" width="150"></a>
+ <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK ISHU MD REPO" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
