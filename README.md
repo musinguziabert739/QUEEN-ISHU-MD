@@ -20,7 +20,7 @@
  <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
   <hr>
 <h4> Following 👇</h4>
-<h1><a href="https://laksidu-bot.tiiny.site/"> Queen ishu Official Web Site</a></h1>
+<h1><a href="https://laksidu-bot.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
 <p><tbody>
 
 
