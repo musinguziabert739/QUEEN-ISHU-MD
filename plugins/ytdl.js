@@ -17,21 +17,25 @@ const url = data.url
     
     
 let desc = `
-╔══════ ❀•°❀°•❀ ══════╗
-✩°｡ 🎧✮*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°｡⋆🎧✮
-─── ❤ ── დ ── ❤ ───
-❤️ *Title:* ${data.title} 
-❤️ *Duration:* ${data.timestamp} 
-❤️ *Views:* ${data.views} 
-❤️ *Uploaded On:* ${data.ago} 
-❤️ *Link:* ${data.url} 
-─── ❤ ── დ ── ❤ ───
+╔══════════════✮❁•°♛°•❁✮ ══════════════╗
+✩°🎧*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°🎧✮
+
+*─── ❤ ── დ ── ❤ ───*
+
+💜 *Title:* ${data.title} 
+💜 *Duration:* ${data.timestamp} 
+💜 *Views:* ${data.views} 
+💜 *Uploaded On:* ${data.ago} 
+💜 *Link:* ${data.url} 
+
+*─── ❤ ── დ ── ❤ ───*
+
 .° ༘🎧⋆🖇₊˚ෆ𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆.° ༘🎧⋆🖇₊˚ෆ
 
 > *QUEEN-ISHU* 
 
 *©CREATED BY LAKSIDU NIMSARA*
-╚══════ ❀•°❀°•❀ ══════╝
+╚══════════════✮❁•°♛°•❁✮ ══════════════╝
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -43,7 +47,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*QUEEN ISHU MD*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -70,21 +74,25 @@ const url = data.url
     
     
 let desc = `
-╔══════ ❀•°❀°•❀ ══════╗
-✩°｡ 🎧✮*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°｡⋆🎧✮
-─── ❤ ── დ ── ❤ ───
-❤️ *Title:* ${data.title} 
-❤️ *Duration:* ${data.timestamp} 
-❤️ *Views:* ${data.views} 
-❤️ *Uploaded On:* ${data.ago} 
-❤️ *Link:* ${data.url} 
-─── ❤ ── დ ── ❤ ───
+╔══════════════✮❁•°♛°•❁✮ ══════════════╗
+✩°🎧*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°🎧✮
+
+*─── ❤ ── დ ── ❤ ───*
+
+💜 *Title:* ${data.title} 
+💜 *Duration:* ${data.timestamp} 
+💜 *Views:* ${data.views} 
+💜 *Uploaded On:* ${data.ago} 
+💜 *Link:* ${data.url} 
+
+*─── ❤ ── დ ── ❤ ───*
+
 .° ༘🎧⋆🖇₊˚ෆ𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐕𝐈𝐃𝐄𝐎.° ༘🎧⋆🖇₊˚ෆ
 
 > *QUEEN-ISHU* 
 
 *©CREATED BY LAKSIDU NIMSARA*
-╚══════ ❀•°❀°•❀ ══════╝
+╚══════════════✮❁•°♛°•❁✮ ══════════════╝
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -96,7 +104,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*QUEEN ISHU MD*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
