@@ -17,21 +17,21 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *SILENT-SOBX-MD MUSIC DOWNLOADING* ]⦁⫸
+╔══════ ❀•°❀°•❀ ══════╗
+✩°｡ 🎧✮*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°｡⋆🎧✮
+─── ❤ ── დ ── ❤ ───
+❤️ *Title:* ${data.title} 
+❤️ *Duration:* ${data.timestamp} 
+❤️ *Views:* ${data.views} 
+❤️ *Uploaded On:* ${data.ago} 
+❤️ *Link:* ${data.url} 
+─── ❤ ── დ ── ❤ ───
+.° ༘🎧⋆🖇₊˚ෆ𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆.° ༘🎧⋆🖇₊˚ෆ
 
-🎵 *MUSIC FOUND!* 
+> *QUEEN-ISHU* 
 
-➥ *Title:* ${data.title} 
-➥ *Duration:* ${data.timestamp} 
-➥ *Views:* ${data.views} 
-➥ *Uploaded On:* ${data.ago} 
-➥ *Link:* ${data.url} 
-
-🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
-
-> *SILENT-SOBX-MD WHATSAPP BOT* 
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²* 
+*©CREATED BY LAKSIDU NIMSARA*
+╚══════ ❀•°❀°•❀ ══════╝
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -70,21 +70,21 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ *•SILENT-SOBX-MD VIDEO DOWNLOADING* ]⦁⫸ 
+╔══════ ❀•°❀°•❀ ══════╗
+✩°｡ 🎧✮*𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*✩°｡⋆🎧✮
+─── ❤ ── დ ── ❤ ───
+❤️ *Title:* ${data.title} 
+❤️ *Duration:* ${data.timestamp} 
+❤️ *Views:* ${data.views} 
+❤️ *Uploaded On:* ${data.ago} 
+❤️ *Link:* ${data.url} 
+─── ❤ ── დ ── ❤ ───
+.° ༘🎧⋆🖇₊˚ෆ𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐕𝐈𝐃𝐄𝐎.° ༘🎧⋆🖇₊˚ෆ
 
-🎥 *VIDEO FOUND!* 
+> *QUEEN-ISHU* 
 
-➥ *Title:* ${data.title} 
-➥ *Duration:* ${data.timestamp} 
-➥ *Views:* ${data.views} 
-➥ *Uploaded On:* ${data.ago} 
-➥ *Link:* ${data.url} 
-
-🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
-
-> *SILENT-SOBX-MD WHATSAPP BOT* 
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²*
+*©CREATED BY LAKSIDU NIMSARA*
+╚══════ ❀•°❀°•❀ ══════╝
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
