@@ -16,25 +16,25 @@
 
  </details>
  <hr>
-
  <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
   <hr>
-<h4> Following 👇</h4>
-<h1><a href="https://laksidu-bot.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
-<p><tbody>
 
-
-<hr>
   ## 1. FORK REPOSITOR
 
 
- <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="FORK ISHU MD REPO" width="150"></a>
+ <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MDfork"><img src="https://img.shields.io/badge/Fork%20Repo-blue" alt="queen ishu MD REPO" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
 
+# 2 PAIR CODE
 
-                   【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
+<a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+
+             【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
 
 
 </details>
@@ -42,22 +42,21 @@
 <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
 
-<hr>
-<b>GET SESSION ID VIA PAIR CODE 02</b>
+  <hr>
+<h4> Following 👇</h4>
+<h1><a href="https://queen-ishu-md.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
+<p>
+<body>
 
-<a href='https://laksidu-create-queen-ishu-bot-7804cdf05e4a.herokuapp.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-<!--
-<a href = "https://gpt-qr-code.onrender.com/elisa"> <img src = "/repo-data/elisa scan qr code.svg" width="150" height="70" > </a></br>
-    OR   
-<a href = "https://queen-elisa-qr-pair.onrender.com/"> <img src = "/repo-data/elisa pair code.svg" width="150" height="70" > </a>
-</br>
-    OR
-    -->
-## Deploy.
- [![nima](https://img.shields.io/badge/QUEEN-ISHU_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD)
+## 3 Deploy.
 
-</details>
+# BOT DIPLOY USE OUR WEBSITE
+
+ <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-blue" alt="OFFIACIAL WEB SITE" width="350"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="180" width="100%">
+   <br
 
 <p align="center">
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
