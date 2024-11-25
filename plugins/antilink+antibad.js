@@ -4,7 +4,6 @@ const path = require('path');
 const config = require('../config')
 // List of bad words to check against
  // Replace with actual words
-//===========================================================geroup antibad msg command=======================================================
 cmd({
   on: "body"
 },
@@ -26,7 +25,6 @@ async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender 
         reply("An error occurred while processing the message.")
     }
 })
-//=================================================group antilink command======================================================================
 const linkPatterns = [
     /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi,   
     /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,           
