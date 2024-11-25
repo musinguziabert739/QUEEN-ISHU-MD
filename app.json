@@ -93,7 +93,7 @@
     }, 
 
     "BOT_NAME": {
-      "description": " your name.",
+      "description": " your bot name.",
       "required": true,
       "value": "QUENN ISHU"
     }
