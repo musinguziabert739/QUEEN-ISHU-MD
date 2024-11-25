@@ -1,6 +1,6 @@
 const config = require('../config')
 const { cmd, commands } = require('../command')
-
+//==============================================group open time========================================
 cmd({
     pattern: "opentime",
     react: "🔖",
@@ -37,7 +37,7 @@ reply('*Error !!*')
 l(e)
 }
 })
-
+//=====================================group close time=======================================
 cmd({
     pattern: "closetime",
     react: "🔖",
@@ -75,7 +75,7 @@ l(e)
 }
 })
 
-
+//======================================================admin tag==========================================
 cmd({
     pattern: "tagadmin",
     alais:["tagadmins"],
