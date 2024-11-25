@@ -27,18 +27,18 @@ async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender 
 })
 
 const linkPatterns = [
-    /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi,   // WhatsApp group or chat links
-    /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,           // Telegram links
-    /https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,          // LinkedIn links
-    /https?:\/\/(?:www\.)?snapchat\.com\/\S+/gi,          // Snapchat links
-    /https?:\/\/(?:www\.)?pinterest\.com\/\S+/gi,         // Pinterest links
-    /https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,            // Reddit links
-    /https?:\/\/ngl\/\S+/gi,                              // NGL links
-    /https?:\/\/(?:www\.)?discord\.com\/\S+/gi,           // Discord links
-    /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,             // Twitch links
-    /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,             // Vimeo links
-    /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,       // Dailymotion links
-    /https?:\/\/(?:www\.)?medium\.com\/\S+/gi             // Medium links
+    /https?:\/\/(?:chat\.whatsapp\.com|wa\.me)\/\S+/gi,   
+    /https?:\/\/(?:t\.me|telegram\.me)\/\S+/gi,           
+    /https?:\/\/(?:www\.)?linkedin\.com\/\S+/gi,         
+    /https?:\/\/(?:www\.)?snapchat\.com\/\S+/gi,         
+    /https?:\/\/(?:www\.)?pinterest\.com\/\S+/gi,         
+    /https?:\/\/(?:www\.)?reddit\.com\/\S+/gi,            
+    /https?:\/\/ngl\/\S+/gi,                             
+    /https?:\/\/(?:www\.)?discord\.com\/\S+/gi,           
+    /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,             
+    /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,            
+    /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,      
+    /https?:\/\/(?:www\.)?medium\.com\/\S+/gi             
 ];
 
 cmd({
