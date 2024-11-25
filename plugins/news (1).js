@@ -1,6 +1,5 @@
 const axios = require('axios');
 const { cmd } = require('../command');
-//=================================================News=======================================================
 cmd({
     pattern: "news",
     desc: "Get the latest news headlines.",
