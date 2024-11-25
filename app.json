@@ -96,13 +96,9 @@
       "description": " your name.",
       "required": true,
       "value": "QUENN ISHU"
-    }, 
-
-    "HEART_REACT": {
-      "description": " reaction .",
-      "required": true,
-      "value": "true"
     }
+
+    
 
 },
 
