@@ -26,6 +26,5 @@ PEXELS_API_KEY: process.env.PEXELS_API_KEY || "39WCzaHAX939xiH22NCddGGvzp7cgbu1V
 GOOGLE_API_KEY: process.env.GOOGLE_API_KEY || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME",
 //==========================================- MODE SETTING -==========================================================
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/RQOPG85.jpeg",
-ALIVE_MSG: process.env.ALIVE_MSG || "╒✦•=============•••••••••============•✦
-",
+ALIVE_MSG: process.env.ALIVE_MSG || "✦•===",
 };
