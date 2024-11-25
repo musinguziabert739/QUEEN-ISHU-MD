@@ -1,7 +1,7 @@
 {
-  "name": "QUEEN ISHU MD",
-  "description": " QUEEN-ISHU MD is a Powerfull WhatsApp BOT CRATE BY LAKSIDU.",
-  "logo": "https://i.imgur.com/RQOPG85.jpeg",
+  "name": "SILENT-SOBX-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
+  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,89 +16,93 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.imgur.com/RQOPG85.jpeg"
+      "value": "https://files.catbox.moe/h5ddpq.jpg"
     }, 
     
     "ALIVE_MSG": {
-      "description": " alive message hear.",
+      "description": "paste your alive message hear.",
       "required": true,
-      "value": "HII DEAR IM ONLINE.!!"
+      "value": "HII DEAR IM ONLINE.!!♻️"
     },
     
     "PREFIX": {
-      "description": "  prefix.",
+      "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": true,
       "value": "."
     },
     
     "MODE": {
-      "description": " public-private-inbox-group.",
+      "description": "select your bot work type public-private-inbox-group.",
       "required": true,
       "value": "public"
     }, 
 
     "AUTO_VOICE": {
-      "description": " bot auto voice.",
+      "description": "Make it true if you want bot auto voice.",
       "required": true,
       "value": "true"
     }, 
 
     "AUTO_REPLY": {
-      "description": " bot auto reply.",
+      "description": "Make it true if you want bot auto reply.",
       "required": true,
       "value": "true"
     }, 
 
     "AUTO_STICKER": {
-      "description": " bot auto sticker.",
+      "description": "Make it true if you want bot auto sticker.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_READ_STATUS": {
-      "description": " bot auto auto_read_status.",
+      "description": "Make it true if you want bot auto auto_read_status.",
       "required": true,
       "value": "true"
     }, 
 
     "ANTI_LINK": {
-      "description": " bot auto remove group link.",
+      "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
     },
 
     "ANTI_BAD": {
-      "description": " bot auto delete bad words from group example xxx porn etc.",
+      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "FAKE_RECORDING": {
-      "description": " bot fake record.",
+      "description": "Make it true if you want bot fake record.",
       "required": true,
       "value": "true"
     },
 
     "AUTO_REACT": {
-      "description": "bot AutoReact.",
+      "description": "Make it true if you want bot AutoReact.",
       "required": true,
       "value": "true"
     },
 
     "OWNER_REACT": {
-      "description": " bot OwnerReact.",
+      "description": "Make it true if you want bot OwnerReact.",
       "required": true,
       "value": "true"
     
     }, 
 
     "BOT_NAME": {
-      "description": " your bot name.",
+      "description": "write hear your name.",
       "required": true,
-      "value": "QUENN ISHU"
-    }
+      "value": "✦sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ✦"
+    }, 
 
-    
+    "HEART_REACT": {
+      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
+      "required": true,
+      "value": "false"
+    }
 
 },
 
