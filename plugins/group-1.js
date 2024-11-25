@@ -1,7 +1,6 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 const { default: makeWASocket, useMultiFileAuthState, WA_DEFAULT_EPHEMERAL, jidNormalizedUser, proto, getDevice, generateWAMessageFromContent, fetchLatestBaileysVersion, makeInMemoryStore, getContentType, generateForwardMessageContent, downloadContentFromMessage, jidDecode } = require('@whiskeysockets/baileys')
-//===============================================-Get Group Admins========================================
 cmd({
     pattern: "admins",
     desc: "Get a list of group admins.",
@@ -33,8 +32,6 @@ async (conn, mek, m, {
     }
 });
 
-//------------------------------------------------------------Set Group Description--------------------------------------------------------------
-
 cmd({
     pattern: "groupdesc",
     desc: "Change the group description.",
@@ -64,7 +61,6 @@ async (conn, mek, m, {
     }
 });
 
-//-----------------------------------------------------------Get Group Info-------------------------------------------------------------
 
 cmd({
     pattern: "groupinfo",
@@ -95,8 +91,6 @@ async (conn, mek, m, {
     }
 });
 
-//-----------------------------------------------Get Group Invite Link-----------------------------------------------
-
 cmd({
     pattern: "grouplink",
     desc: "Get the group's invite link.",
@@ -119,8 +113,6 @@ async (conn, mek, m, {
         reply(`Error: ${e.message}`);
     }
 });
-
-//-----------------------------------------------Group Name Change-----------------------------------------------
 
 cmd({
     pattern: "gname",
@@ -155,9 +147,6 @@ async (conn, mek, m, { from, isGroup, sender, groupMetadata, args, reply }) => {
     }
 });
 
-
-//---------------------------------------------Group Subject Change --------------------------------------------
-
 cmd({
     pattern: "setsubject",
     desc: "Change the group subject.",
@@ -189,9 +178,6 @@ async (conn, mek, m, {
         reply(`Error: ${e.message}`);
     }
 });
-
-
-//---------------------------------------------Tag All --------------------------------------------
 
 cmd({
     pattern: "tagall",
@@ -353,9 +339,6 @@ async (conn, mek, m, { from, isGroup, reply, match }) => {
 });
 
 
-
-//---------------------------------------------Hide Tag --------------------------------------------
-
 cmd({
     pattern: "hidetag",
     desc: "Tags everyperson of group without mentioning their numbers",
@@ -382,9 +365,6 @@ reply('Error !!')
 l(e)
 }
 })
-
-//---------------------------------------------Kick --------------------------------------------
-
 cmd({
     pattern: "kick",
     desc: "Kicks replied/quoted user from group.",
@@ -542,7 +522,6 @@ async (conn, mek, m, { from, isGroup, reply, match }) => {
     }
 });
 
-//getpic
 cmd({
     pattern: "getpic",
     desc: "Get the group profile picture.",
