@@ -52,7 +52,7 @@
     "AUTO_STICKER": {
       "description": " bot auto sticker.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_READ_STATUS": {
@@ -70,7 +70,7 @@
     "ANTI_BAD": {
       "description": " bot auto delete bad words from group example xxx porn etc.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "FAKE_RECORDING": {
@@ -101,7 +101,7 @@
     "HEART_REACT": {
       "description": " reaction .",
       "required": true,
-      "value": "false"
+      "value": "true"
     }
 
 },
