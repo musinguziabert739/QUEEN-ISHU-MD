@@ -2,7 +2,6 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 const os = require("os")
 const {runtime} = require('../lib/functions')
-//===========================================Bot menu command=========================================================
 cmd({
     pattern: "menu",
     alias: ["list"],
