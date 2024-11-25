@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 const { exec } = require('child_process');
 const config = require('../config');
 
-// 1. Shutdown Bot
+//====================================================Shutdown Bot====================================================
 cmd({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
@@ -15,7 +15,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     reply("🛑 Shutting down...").then(() => process.exit());
 });
 
-// 2. Broadcast Message to All Groups
+//============================================== Broadcast Message to All Groups=====================================
 cmd({
     pattern: "broadcast",
     desc: "Broadcast a message to all groups.",
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, isOwner, args, reply }) => {
     reply("📢 мєѕѕαgє вяσα∂¢αѕтє∂ тσ αℓℓ gяσυρѕ.");
 });
 
-// 3. Set Profile Picture
+//====================================================== Set Profile Picture=========================================
 cmd({
     pattern: "setpp",
     desc: "Set bot profile picture.",
@@ -58,7 +58,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     }
 });
 
-// 4. Block User
+//=========================================================================Block User============================================
 cmd({
     pattern: "block",
     desc: "Block a user.",
@@ -79,7 +79,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     }
 });
 
-// 5. Unblock User
+//=====================================================================Unblock User=============================================
 cmd({
     pattern: "unblock",
     desc: "Unblock a user.",
@@ -100,7 +100,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     }
 });
 
-// 6. Clear All Chats
+//=================================================================Clear All Chats========================================
 cmd({
     pattern: "clearchats",
     desc: "Clear all chats from the bot.",
@@ -121,7 +121,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     }
 });
 
-// 7. Get Bot JID
+//===================================================================Get Bot JID=====================================
 cmd({
     pattern: "jid",
     desc: "Get the bot's JID.",
@@ -134,7 +134,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     reply(`🤖 *Bot JID:* ${conn.user.jid}`);
 });
 
-// 8. Group JIDs List
+//===============================================================Group JIDs List=====================================
 cmd({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
