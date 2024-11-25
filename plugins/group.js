@@ -1,5 +1,4 @@
 const { cmd, commands } = require('../command')
-//=====================================group memeber admin=================================================================
 cmd({
     pattern: "promote",
     desc: "Promote a member to admin.",
@@ -23,7 +22,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//================================================group memeber admin remove==============================================
 cmd({
     pattern: "demote",
     desc: "Demote an admin to member.",
@@ -47,7 +45,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//==================================================group memeber kick==============================================================
 cmd({
     pattern: "remove",
     desc: "Remove a member from the group.",
@@ -71,7 +68,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//=====================================================Group member add command===============================================
 cmd({
     pattern: "add",
     desc: "Add a member to the group.",
@@ -95,7 +91,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//=====================================================Group memeber left msg=============================================
 cmd({
     pattern: "setgoodbye",
     desc: "Set the goodbye message for the group.",
@@ -119,7 +114,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//=====================================================-Group memeber join msg================================================
 cmd({
     pattern: "setwelcome",
     desc: "Set the welcome message for the group.",
@@ -143,7 +137,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`)
     }
 })
-//====================================================group dp chanege==================================================
 cmd({
     pattern: "getpic",
     desc: "Get the group profile picture.",
