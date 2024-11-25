@@ -1,8 +1,6 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
 
-//===================================Group close command=====================================
-
 cmd({
     pattern: "mute",	
     alias: ["lock"],
@@ -27,7 +25,6 @@ console.log(e);
 reply('*PLEASE GIVE ME A ADDMIN ❗*')    
 } 
 })
-//===========================================================Group open command===================================================
 cmd({
     pattern: "unmute",	
     alias: ["unlock"],
