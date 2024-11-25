@@ -40,7 +40,7 @@ let desc = `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
-//download audio
+//========================================download audio==================================
 
 let down = await fg.yta(url)
 let downloadUrl = down.dl_url
@@ -55,7 +55,7 @@ console.log(e)
 }
 })
 
-//====================video_dl=======================
+//============================================video_search=======================================
 
 cmd({
     pattern: "darama",
@@ -97,7 +97,7 @@ let desc = `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
-//download video
+//==================================download_video==================================
 
 let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
@@ -108,6 +108,6 @@ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fi
 
 }catch(e){
 console.log(e)
-  reply('${e}')
+  reply('Could not song/video. Please try again later')
 }
 })
