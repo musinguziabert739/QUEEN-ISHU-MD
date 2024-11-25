@@ -77,26 +77,28 @@ require("./plugins/" + plugin);
 console.log('INSTALL SUCCESSFULLY ✅')
 console.log('QUEEN ISHU CONNECTED  ✅')
 
-let up = `*╭──────────────●●►*
-> *➺sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²✅*
+let up = `╭──────────────⊷❒
+*WELCOME TO QUEEN-ISHU-MD වෙත:|💛*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
+- *💛 "ලස්සනට ආදරේ විදින්න උඹ අකුරෙන් අකුර මට හුරු කලාට..."උඹට අමතක උනා මැණික මට තනියෙන් ඉන්න පුරුදු කරන්න🙂❤️‍🩹ඒ නිසා මන් අදටත් රැයක් දවාලක් නැතුව තනිකම එක්ක යාලු වෙන්න💛-"❤️🥺"-*
 
-*https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
+- *💛 QUEEN-ISHU SUPER SPEED BEST BOT රොබෝවෙකි..*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
+- *💛 හායි පැටියෝ HOW ARE.YOU.*
+⁠⁠⁠⁠╰─===========⊷❒
+╭=========⊷❒
+*QUEEN-ISHU CONNECTED SUCCESSFULY 💛*
 
-*https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7*
+- *💛 Welcome to QUEEN-ISHU MD*
 
-*╭⊱✫🔮 SILENT-SOBX-MD 🔮✫⊱╮*
-*│✫➠ - 📂REPOSITORY NAME:* *SILENT-SOBX-MD*
-*│✫➠ - 📃DESCRIPTION:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✫➠ - 🛡️OWNER:* *SILENT LOVER⁴³²*
-*│✫➠ - 🌐URL:* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
+- *💛 QUEEN-ISHU MD WORKING Your Account*
 
-*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
+- *💛 Use the 💛 . command to get a full understanding of the QUEEN-ISHU MD testimonial...*
 
-*╰──────────────●●►*`;
+- *💛 QUEEN-ISHU MD is a Powerfull WhatsApp BOT CRATE BY LAKSIDU.*
+
+- *💛 This is your LOG number. Avoid using the command here.*
+⁠⁠⁠⁠╰──────────────⊷❒`;
 conn.sendMessage(conn.user.id, { image: { url: `https://i.imgur.com/RQOPG85.jpeg` }, caption: up })
 
 }
