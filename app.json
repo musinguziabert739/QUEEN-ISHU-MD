@@ -1,36 +1,111 @@
 {
-  "name": "QUEEN-ISHU(main)",
-  "description": "LAKSIDU NIMSARA",
-  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+  "name": "QUEEN ISHU MD",
+  "description": "QUEEN-ISHU MD is a Powerfull WhatsApp BOT CRATE BY LAKSIDU.",
+  "logo": "https://i.imgur.com/RQOPG85.jpeg",
+  "keywords": ["bot"],
   "success_url": "/",
 
+    "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put Your SESSION ID",
-      "required": false
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
+      "required": true,
+      "value": "https://i.imgur.com/RQOPG85.jpeg"
+    }, 
+    
+    "ALIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "required": true,
+      "value": "HII DEAR IM ONLINE.!!"
+    },
+    
+    "PREFIX": {
+      "description": " prefix.",
+      "required": true,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    }, 
+
+    "AUTO_VOICE": {
+      "description": " auto voice.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": " bot auto reply.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_STICKER": {
+      "description": " bot auto sticker.",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "AUTO_READ_STATUS": {
+      "description": " auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ANTI_LINK": {
+      "description": " bot auto remove group link.",
+      "required": true,
+      "value": "true"
     },
 
-      "AUTO_READ_STATUS": {
-       "description": "true or false",
-         "required": false
+    "ANTI_BAD": {
+      "description": " auto delete bad words from group example xxx .",
+      "required": true,
+      "value": "false"
+    }, 
 
-     },
+    "FAKE_RECORDING": {
+      "description": " bot fake record.",
+      "required": true,
+      "value": "true"
+    },
 
-      "MODE": {
-         "description": "priver/public",
-            "required": false
+    "AUTO_REACT": {
+      "description": " bot AutoReact.",
+      "required": true,
+      "value": "true"
+    },
 
-     }
+    "OWNER_REACT": {
+      "description": " OwnerReact.",
+      "required": true,
+      "value": "true"
+    
+    }, 
 
-  },
+    "BOT_NAME": {
+      "description": "write  your name.",
+      "required": true,
+      "value": "QUEEN ISHU"
+    }, 
+
+  
+
+},
 
      "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
-  "stack": "heroku-22"
-  
-  
+  "stack": "heroku-24"
 }
