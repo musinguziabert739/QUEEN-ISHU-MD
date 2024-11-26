@@ -2,7 +2,7 @@ const { cmd ,commands } = require('../command');
 const { exec } = require('child_process');
 const config = require('../config');
 const {sleep} = require('../lib/functions')
-// 1. Shutdown Bot
+//====================================================== Shutdown Bot====================================
 cmd({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
@@ -14,7 +14,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
     reply("🛑 Shutting down...").then(() => process.exit());
 });
-// 2. Broadcast Message to All Groups
+//================================================= Broadcast Message to All Groups============================
 cmd({
     pattern: "broadcast",
     desc: "Broadcast a message to all groups.",
@@ -32,7 +32,7 @@ async (conn, mek, m, { from, isOwner, args, reply }) => {
     }
     reply("📢 Message broadcasted to all groups.");
 });
-// 3. Set Profile Picture
+//=======================================================Set Profile Picture========================================
 cmd({
     pattern: "setpp",
     desc: "Set bot profile picture.",
@@ -70,7 +70,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
         reply(`❌ Error blocking user: ${error.message}`);
     }
 });
-// 5. Unblock User
+//====================================================================== Unblock User====================================
 cmd({
     pattern: "unblock",
     desc: "Unblock a user.",
@@ -89,7 +89,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
         reply(`❌ Error unblocking user: ${error.message}`);
     }
 });
-// 6. Clear All Chats
+//=========================================================== Clear All Chats=================================
 cmd({
     pattern: "clearchats",
     desc: "Clear all chats from the bot.",
@@ -121,7 +121,7 @@ async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
     reply(`🤖 *Bot JID:* ${conn.user.jid}`);
 });
-// 8. Group JIDs List
+//=========================================================Group JIDs List==================================
 cmd({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
