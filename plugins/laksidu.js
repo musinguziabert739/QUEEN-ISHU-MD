@@ -1,43 +1,37 @@
 const {cmd , commands} = require('../command')
+const fg = require('api-dylux')
+const yts = require('yt-search')
 cmd({
-    pattern: "Laksidu",
-    desc: "about",
-    react: "❕",
+    pattern: "laksidu",
+    desc: "sed msg",
+    react: "🧑",
+    category: "download",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-
+if(!q) return reply("Please name")  
+const search = await yts(q)
+const data = search.videos[0];
+const url = data.url
+   
 let desc = `
 ====================••••••••==========
-*මමත් ආසයි...🙂*
 
-*හැමදේම කියන්න කෙනෙක් හිටියා නම්,*
+ඔව් ආදරේ කියන්නෙ
+පරිස්සම් කරන එකට තමයි,
+පරිස්සම් කරන්නෙ ආදරේ හින්දා තමයි,
 
-*හැමවෙලේම මැසේජ් කරන්න,*
+ඉතින් ආදරේ කියන්නෙම පරිස්සම් කරන එකට තමයි...!❤‍🩹🥺
 
-*කරදර කර කර හොයල බලන්න කෙනෙක් හිටියා නම්,*
+ස්තූතිය....!
 
-*පරිස්සමෙන් ඉන්න මේ දවස් වල*
-*මට ඉන්නෙ ඔයා විතරනෙ කියන්න කෙනෙක් හිටියා නම්,*
+*NAME=LAKSIDU NIMSARA MAHESH❤‍🩹🥺*
+*AGE-17❤‍🩹🥺*
+*FROME=ANURADHAPURA❤‍🩹🥺*
 
-*මට දැනෙන තරම් මාව දැනෙන කෙනෙක් හිටියා නම්,*
 
-*ඔව් ආදරේ කියන්නෙ*
-*පරිස්සම් කරන එකට තමයි,*
-*පරිස්සම් කරන්නෙ ආදරේ හින්දා තමයි,*
-
-*ඉතින් ආදරේ කියන්නෙම පරිස්සම් කරන එකට තමයි...!❤‍🩹🥺*
-
-*ස්තූතිය....!*
-
-*@CRATE BY LAKSIDU NIMSARA*
-
-> QUEEN-ISHU-MD
+@CRATE BY LAKSIDU NIMSARA
 `
-return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/mwmSFuC.jpeg`},caption: desc},{quoted: mek})
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek})
