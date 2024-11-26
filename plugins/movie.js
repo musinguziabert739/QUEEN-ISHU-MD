@@ -25,22 +25,25 @@ cmd({
         }
 
         const movieInfo = `
-*🎬𝐈𝐒𝐇𝐔 𝐌𝐃 𝐌𝐎𝐕𝐈𝐄 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑🎬*
+*╔════ ✿❀ღღ✿❀════╗*
 
-*ᴛɪᴛʟᴇ:* ${data.Title}
-*ʏᴇᴀʀ:* ${data.Year}
-*ʀᴀᴛᴇᴅ:* ${data.Rated}
-*ʀᴇʟᴇᴀꜱᴇᴅ:* ${data.Released}
-*ʀᴜɴᴛɪᴍᴇ:* ${data.Runtime}
-*ɢᴇɴʀᴇ:* ${data.Genre}
-*ᴅɪʀᴇᴄᴛᴏʀ:* ${data.Director}
-*ᴡʀɪᴛᴇʀ:* ${data.Writer}
-*ᴀᴄᴛᴏʀꜱ:* ${data.Actors}
-*ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
-*ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
-*ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
-*ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
+*🎬𝐈𝐒𝐇𝐔 𝐌𝐃 𝐌𝐎𝐕𝐈𝐄🎬*
 
+*➤🌟ᴛɪᴛʟᴇ:* ${data.Title}
+*➤🌟ʏᴇᴀʀ:* ${data.Year}
+*➤🌟ʀᴀᴛᴇᴅ:* ${data.Rated}
+*➤🌟ʀᴇʟᴇᴀꜱᴇᴅ:* ${data.Released}
+*➤🌟ʀᴜɴᴛɪᴍᴇ:* ${data.Runtime}
+*➤🌟ɢᴇɴʀᴇ:* ${data.Genre}
+*➤🌟ᴅɪʀᴇᴄᴛᴏʀ:* ${data.Director}
+*➤🌟ᴡʀɪᴛᴇʀ:* ${data.Writer}
+*➤🌟ᴀᴄᴛᴏʀꜱ:* ${data.Actors}
+*➤🌟ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
+*➤🌟ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
+*➤🌟ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
+*🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
+
+*╚════❀✿ღღ❀✿════╝*
 > QUEEN ISHU MD
 `;
 
@@ -48,7 +51,7 @@ cmd({
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY LAKSIDU`
+            caption: `${movieInfo}\n> CREATED BY LAKSIDU NIMSARA`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
