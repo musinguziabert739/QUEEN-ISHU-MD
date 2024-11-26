@@ -64,7 +64,7 @@ async (conn, mek, m, {
 
 cmd({
     pattern: "groupinfo",
-    desc: "Get information about the group.",
+    desc: "Get information  the group.",
     react: "👥",
     category: "group",
     filename: __filename
