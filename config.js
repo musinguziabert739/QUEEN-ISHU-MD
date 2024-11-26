@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-///================================================MAIN-CONFIG============================================
+///================================================MAIN-CONFIG=============================================
 SESSION_ID: process.env.SESSION_ID || "Put Session Id",  // ADD Your Session Id 
 MODE: process.env.MODE || "public",  // Add Your Bot Mode 
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
