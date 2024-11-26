@@ -19,7 +19,7 @@ cmd({
     filename: __filename
 
 },
-
+//========================================config setting==================================
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try{
