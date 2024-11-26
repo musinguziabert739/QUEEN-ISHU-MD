@@ -25,7 +25,7 @@ cmd({
         }
 
         const movieInfo = `
-*╔════ ✿❀ღღ✿❀════╗*
+*╔════✿❀ღღ✿❀════╗*
 
 *🎬𝐈𝐒𝐇𝐔 𝐌𝐃 𝐌𝐎𝐕𝐈𝐄🎬*
 
@@ -41,17 +41,16 @@ cmd({
 *➤🌟ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
 *➤🌟ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
 *➤🌟ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
-*🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
+*➤🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
 *╚════❀✿ღღ❀✿════╝*
-> QUEEN ISHU MD
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY LAKSIDU NIMSARA`
+            caption: `${movieInfo}\n> POWERD BY QUEEN ISHU MD`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
