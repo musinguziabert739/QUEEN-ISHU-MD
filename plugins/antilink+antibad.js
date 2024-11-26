@@ -37,7 +37,8 @@ const linkPatterns = [
     /https?:\/\/(?:www\.)?twitch\.tv\/\S+/gi,             
     /https?:\/\/(?:www\.)?vimeo\.com\/\S+/gi,            
     /https?:\/\/(?:www\.)?dailymotion\.com\/\S+/gi,      
-    /https?:\/\/(?:www\.)?medium\.com\/\S+/gi             
+    /https?:\/\/(?:www\.)?medium\.com\/\S+/gi
+    /https://whatsapp.com/channel/             
 ];
 
 cmd({
