@@ -23,6 +23,7 @@ AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //add true or false
 ///===============================================API-CONFIG==============================================
 GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
 PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
+OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 ///===============================================ALIVE-CONFIG=========================================
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/RQOPG85.jpeg", //add alive img url
 ALIVE_MSG: process.env.ALIVE_MSG || "HI AME WHATSAPP BOT", //add alive msg
