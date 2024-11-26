@@ -2,7 +2,6 @@ const axios = require('axios');
 const { cmd } = require('../command');
 const config = require('../config'); // Ensure your API key is in config
 
-// Command to fetch movie details
 cmd({
     pattern: "movie",
     desc: "Fetch detailed information about a movie.",
@@ -25,7 +24,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 SILENT-SOBX-MD 🎬*
+*🎬𝐈𝐒𝐇𝐔 𝐌𝐃 𝐌𝐎𝐕𝐈𝐄 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -41,7 +40,7 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> POWERED BY SILENT-SOBX-MD
+> CREATE BY LAKSIDU NIMSARA
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
