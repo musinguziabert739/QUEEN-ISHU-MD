@@ -15,7 +15,7 @@ async (conn, mek, m, { from, reply }) => {
 
         if (!articles.length) return reply("No news articles found.");
 
-        // Send each article as a separate message with image and title
+        //=========================================Send each article as a separate message with image and title==========================
         for (let i = 0; i < Math.min(articles.length, 5); i++) {
             const article = articles[i];
             let message = `
