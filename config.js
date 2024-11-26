@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 ///================================================MAIN-CONFIG============================================
-SESSION_ID: process.env.SESSION_ID || "CJ5gBbaC#vJzAbzPjfHzGv8-7qwrO0RZXevYOfDHeF036cVlr_Ac",  // ADD Your Session Id 
+SESSION_ID: process.env.SESSION_ID || "Put Session Id",  // ADD Your Session Id 
 MODE: process.env.MODE || "public",  // Add Your Bot Mode 
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
 OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
