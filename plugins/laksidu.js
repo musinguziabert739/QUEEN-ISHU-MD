@@ -1,5 +1,4 @@
 const {cmd , commands} = require('../command')
-//=============================================laksidu================================================
 cmd({
     pattern: "Laksidu",
     desc: "about",
