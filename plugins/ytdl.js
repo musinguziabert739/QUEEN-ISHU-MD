@@ -14,7 +14,7 @@ if(!q) return reply("Please give me a url or title")
 const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
-    
+ //=======================================SEARCH SONG==========================================   
     
 let desc = `
 ╔═════════✮❁•°♛°•❁✮ ══════════╗
@@ -44,7 +44,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
-//send audio message
+//=============================================DOWBLOAD SONG=====================================
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
 await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*QUEEN ISHU MD*"},{quoted:mek})
 
