@@ -10,7 +10,7 @@
 
 
 
-🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜.  🎀  🐀
+//🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜.  🎀  🐀//
 
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
@@ -29,7 +29,7 @@
 
 # 2 PAIR CODE
 
-<a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+<a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-pink" alt="PAIR CODE" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
@@ -53,7 +53,7 @@
 
 # BOT DIPLOY USE OUR WEBSITE
 
- <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-blue" alt="OFFIACIAL WEB SITE" width="350"></a>
+ <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-yellow" alt="OFFIACIAL WEB SITE" width="350"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="180" width="100%">
    <br
@@ -62,7 +62,7 @@
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
 </p>
 
-/🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀/
+//🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀//
 
 
 </details>
