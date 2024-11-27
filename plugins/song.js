@@ -33,7 +33,6 @@ let ytmsg = `
 ⏱ RUNTIME : ${yts.timestamp}
 👀 VIEWS : ${yts.views}
 🖇️ URL : ${yts.url}
-*¸,ø¤º°`°º¤ø,¸¸,ø¤º°°º¤ø,¸¸,*
 `
 // SEND DETAILS
 await conn.sendMessage(from, { image: { url: yts.thumbnail || yts.image || '' }, caption: ${ytmsg}}, { quoted: mek });
