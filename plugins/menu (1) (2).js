@@ -12,34 +12,34 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let desc = `*👋 Hello ${pushname}*
-
-     *𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔*
+    
+     *꧁🧸ྀི𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔🧸ྀི꧂*
 *❖╭─────────────···▸*
-*❖│▸* *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
-*❖│▸* *ᴍᴏᴅᴇ* : *PUBLIC*
-*❖│▸* *ᴘʀᴇғɪx* : *.*
-*❖│▸* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-*❖│▸* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖QUEEN-ISHU❖*
-*❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *➺LAKSIDU NIMSARA࿐*
-*❖│▸* *ᴠᴇʀsɪᴏɴs* : *ᴠ.1.0.0*
-*❖│▸* *ᴍᴇɴᴜ ᴄᴍᴅ* : *ᴍᴇɴᴜ ʟɪsᴛ*
+*❖│▸*➤ *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
+*❖│▸*➤ *ᴍᴏᴅᴇ* : *PUBLIC*
+*❖│▸*➤ *ᴘʀᴇғɪx* : *.*
+*❖│▸*➤ *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+*❖│▸*➤ *ɴᴀᴍᴇ ʙᴏᴛ* : *❖QUEEN-ISHU❖*
+*❖│▸*➤ *ᴄʀᴇᴀᴛᴏʀ* : *➺LAKSIDU NIMSARA࿐*
+*❖│▸*➤ *ᴠᴇʀsɪᴏɴs* : *ᴠ.1.0.0*
+*❖│▸*➤ *ᴍᴇɴᴜ ᴄᴍᴅ* : *ᴍᴇɴᴜ ʟɪsᴛ*
 *❖╰────────────···▸▸*
 *♡︎•━━━━━━☻︎━━━━━━•♡︎*
 *╭╼╼╼╼╼╼╼╼╼╼*
-*├ 1 • OWNER*
-*├ 2 • CONVERT*
-*├ 3 • AI*
-*├ 4 • SEARCH*
-*├ 5 • DOWNLOAD*
-*├ 6 • MAIN*
-*├ 7 • GROUP*
-*├ 8 • FUN*
-*├ 9 • TOOLS*
-*├ 10 • OTHER*
+*├➤ 1 • OWNER*
+*├➤ 2 • CONVERT*
+*├➤ 3 • AI*
+*├➤ 4 • SEARCH*
+*├➤ 5 • DOWNLOAD*
+*├➤ 6 • MAIN*
+*├➤ 7 • GROUP*
+*├➤ 8 • FUN*
+*├➤ 9 • TOOLS*
+*├➤ 10 • OTHER*
 *╰╼╼╼╼╼╼╼╼╼╼*
-*❒⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭❒*⁠⁠⁠⁠
+* ▣▣▣▣▣▣▣▣▣▣▣▣*⁠⁠⁠⁠
 
-*🌟 Reply with the Number you want to select*
+*ׂ╰┈➤Reply with the Number you want to select*
 
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
 
@@ -54,10 +54,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-                        reply(`*💜◈╾──────OWNER COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────OWNER COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *restart* 
+│ ➽ *restart* 
+│ ➽ *block*
+│ ➽ *setting*
+│ ➽ *unblock*
+│ ➽ *jid*
 ╰────────────────────●●►
 
 ⭓ *Total Commands List OWNER: 1*
@@ -65,11 +69,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '2':               
-                        repl (`💜*◈╾──────CONVERT COMMAND LIST──────╼◈💜*
+                        repl (`꧁*◈╾──────CONVERT COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *convert* 
-│ 🧡 *ss* 
+│ ➽ *convert* 
+│ ➽ *ss* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List CONVERT: 1*
@@ -77,10 +81,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '3':               
-                        reply(`💜*◈╾──────AI COMMAND LIST──────╼◈💜*
+                        reply(`꧁*◈╾──────AI COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *ai* 
+│ ➽ *ai* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List AI: 1*
@@ -88,13 +92,19 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '4':               
-                        reply(`*💜◈╾──────SEARCH COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────SEARCH COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *yts* 
+│ ➽ *yt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *srepo* 
+│ ➽ *song* 
+╰────────────────────●●►
+╭────────●●►
+│ ➽ *video* 
+╰────────────────────●●►
+╭────────●●►
+│ ➽ *movie* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List SEARCH: 2*
@@ -102,49 +112,46 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '5':               
-                        reply(`*💜◈╾──────DOWNLOAD COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────DOWNLOAD COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *apk* 
+│ ➽ *apk* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *twitter* 
+│ ➽ *twitter* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *gdrive* 
-╰────────────────────●●►
-╭─🧡───────●●►
-│ 🧡 *mediafire* 
+│ ➽ *gdrive* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *fb* 
+│ ➽ *mediafire* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *ig* 
+│ ➽ *fb* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *movie* 
+│ ➽ *ig* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *song* 
+│ ➽ *movie* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *video* 
+│ ➽ *song* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *play/yt* 
+│ ➽ *video* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *song2* 
+│ ➽ *play/yt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *video2* 
+│ ➽ *yt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *tiktok* 
+│ ➽ *tiktok* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *img* 
+│ ➽ *img* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List DOWNLOAD: 14*
@@ -152,31 +159,31 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '6':               
-                        reply(`*💜◈╾──────MAIN COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────MAIN COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *alive* 
+│ ➽ *alive* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *about* 
+│ ➽ *about* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *menu* 
+│ ➽ *menu* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *allmenu* 
+│ ➽ *allmenu* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *support* 
+│ ➽ *support* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *system* 
+│ ➽ *system* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *ping* 
+│ ➽ *ping* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *runtime* 
+│ ➽ *runtime* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List MAIN: 8*
@@ -184,52 +191,55 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *©ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                         break;
                     case '7':               
-                        reply(`*💜◈╾──────GROUP COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────GROUP COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *promote* 
+│ ➽ *promote* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *demote* 
+│ ➽ *demote* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *kick* 
+│ ➽ *kick* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *add* 
+│ ➽ *add* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *admins* 
+│ ➽ *admins* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *tagall* 
+│ ➽ *tagall* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *getpic* 
+│ ➽ *getpic* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *setwelcome* 
+│ ➽ *setwelcome* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *setgoodbye* 
+│ ➽ *setgoodbye* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *admins* 
+│ ➽ *admins* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *gname* 
+│ ➽ *gname* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *tagall* 
+│ ➽ *tagall* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *tagadmin* 
+│ ➽ *tagadmin* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *opentime/closetime* 
+│ ➽ *opentime/closetime* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *groupinfo* 
+│ ➽ *groupinfo* 
+╰────────────────────●●►
+╭────────●●►
+│ ➽ *grouplink* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List GROUP: 11*
@@ -237,26 +247,24 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`);
                        break;
                     case '8':               
-                        reply(`*💜◈╾──────FUN COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────FUN COMMAND LIST──────╼◈꧂*
 
 ╭────────●●►
-│ 🧡 *dog* 
+│ ➽ *dog* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *fact* 
+│ ➽ *fact* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *hack* 
+│ ➽ *hack* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *quote* 
+│ ➽ *quote* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *loli* 
+│ ➽ *loli* 
 ╰────────────────────●●►
-╭────────●●►
-│ 🧡 *neko* 
-╰────────────────────●●►
+
 
 ⭓ *Total Commands List FUN: 4*
 
@@ -264,16 +272,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
                         break;
                     case '10':               
-                        reply(`*💜◈╾──────OTHER COMMAND LIST──────╼◈💜*
+                        reply(`*꧁◈╾──────OTHER COMMAND LIST──────╼◈꧂*
+
 
 ╭────────●●►
-│ 🧡 *githubstalk* 
+│ ➽ *trt* 
 ╰────────────────────●●►
 ╭────────●●►
-│ 🧡 *trt* 
-╰────────────────────●●►
-╭────────●●►
-│ 🧡 *weather* 
+│ ➽ *weather* 
 ╰────────────────────●●►
 
 ⭓ *Total Commands List OTHER: 3*
