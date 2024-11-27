@@ -6,7 +6,7 @@
 
 
 <p align="center">
- <img src="https://i.imgur.com/vzDwkjg.jpeg"  width="650px">
+ <img src="https://i.imgur.com/vzDwkjg.jpeg"  width="750px">
 
 
 
