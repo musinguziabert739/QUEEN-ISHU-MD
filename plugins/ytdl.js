@@ -62,7 +62,7 @@ cmd({
     pattern: "video",
     alias: ["yt"],
     desc: "To download videos.",
-    react: "🎥",
+    react: "📽️",
     category: "download",
     filename: __filename
 },
