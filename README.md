@@ -56,7 +56,7 @@
  <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-yellow" alt="OFFIACIAL WEB SITE" width="350"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="180" width="100%">
-   <br
+
 
 <p align="center">
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
