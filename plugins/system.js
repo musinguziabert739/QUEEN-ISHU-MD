@@ -23,7 +23,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `*╔══════✮❁•°♛°•❁✮ ══════╗*
-*SILENT-SOBX-MD UPTIME LIST↷*
+*QUEEN-ISHU-MD-SYSTERM*
 
 *_UPTIME:➠_*  ${runtime(process.uptime())}
 
