@@ -1,5 +1,5 @@
 //======================= news command ====================
-//=========================================================
+
 
 const { cmd } = require('../command');
 const Hiru = require('hirunews-scrap');
@@ -46,7 +46,7 @@ async function getLatestNews() {
     return newsData;
 }
 
-// Function to check for and post new news to the group
+//========================================================
 async function checkAndPostNews(conn, groupId) {
     const latestNews = await getLatestNews();
     latestNews.forEach(async (newsItem) => {
@@ -68,7 +68,7 @@ async function checkAndPostNews(conn, groupId) {
 }
 
 
-// Command to activate the general news service in the group
+//=====================================================================
 cmd({
     pattern: "startnews",
     desc: "Enable Sri Lankan news updates in this group",
@@ -112,7 +112,7 @@ cmd({
     }
 });
 
-// stop news
+//===================================================
 cmd({
     pattern: "stopnews",
     desc: "Disable Sri Lankan news updates in this group",
