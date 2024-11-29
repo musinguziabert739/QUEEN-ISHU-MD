@@ -1,3 +1,15 @@
+/*
+███████╗  ██╗   ██╗ ███████╗ ███████╗ ███╗   ██╗       ███   █████████    ███     ███    ███     ███
+██╔═══██╗ ██║   ██║ ██╔════╝ ██╔════╝ ████╗  ██║       ███   ███          ███     ███    ███     ███
+██║   ██║ ██║   ██║ █████╗   █████╗   ██╔██╗ ██║       ███   █████████    ███████████    ███     ███
+██║▄▄ ██║ ██║   ██║ ██╔══╝   ██╔══╝   ██║╚██╗██        ███         ███    ███     ███    ███████████
+╚██████╔╝ ╚██████╔╝ ███████╗ ███████╗ ██║ ╚████║       ███   █████████    ███     ███      ███████
+created by laksidu
+ DONT COPY
+*/
+
+
+
 const config = require('../config');
 let fs = require('fs');
 const { exec } = require('child_process');
@@ -12,20 +24,18 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/SILENTLOVER40/SILENT-SOBX-MD.git'; // لینک مخزن گیت‌هاب
-        const targetFolder = 'plugins'; // پوشه‌ای که باید به‌روز شود
-
-        // بررسی وجود پوشه هدف
+        const repoUrl = 'https://github.com/laksidunimsara1/QUEEN-ISHU-MD.git'; 
+        const targetFolder = 'plugins'; 
+        
         if (!fs.existsSync(targetFolder)) {
-            fs.mkdirSync(targetFolder); // ساخت پوشه در صورت عدم وجود
+            fs.mkdirSync(targetFolder); 
         }
 
-        // تعیین دستور مناسب گیت
         const gitCommand = fs.existsSync(`${targetFolder}/.git`)
             ? `git -C ${targetFolder} pull`
             : `git clone ${repoUrl} ${targetFolder}`;
 
-        // اجرای دستور گیت
+       
         await new Promise((resolve, reject) => {
             exec(gitCommand, (err, stdout, stderr) => {
                 if (err) {
@@ -36,7 +46,7 @@ cmd({
             });
         });
 
-        // ارسال پیام موفقیت
+        
         await conn.sendMessage(from, { text: '*✅ Update completed successfully!*' }, { quoted: mek });
     } catch (error) {
         console.error(error);
