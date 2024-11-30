@@ -45,6 +45,10 @@ let desc = `
 *🎧𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆🎧*
 *╚══════✮❁•°♛°•❁✮ ═══════╝*
 
+*⭕QUEEN-ISHU NEW UPDATE*
+
+*🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e*
+
 > *©CREATED BY LAKSIDU NIMSARA* 
 `
 
@@ -101,6 +105,10 @@ let desc = `
 *╔══════✮❁•°♛°•❁✮ ═══════╗*
 *🎥𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐕𝐈𝐃𝐄𝐎🎥*
 *╚══════✮❁•°♛°•❁✮ ═══════╝*
+
+*⭕QUEEN-ISHU NEW UPDATE*
+
+*🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e*
 
 > *©CREATED BY LAKSIDU NIMSARA* 
 `
