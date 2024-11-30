@@ -51,6 +51,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 *ׂ╰┈➤Reply with the Number you want to select*
 
+⭕QUEEN-ISHU නව යාවත්කාලීන දැන ගැනීම සදහා අපගේ සමූහයට එකතු වන්න
+
+🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e
+
 *ISHU MD CREATE BY LAKSIDU NIMSARAッ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://i.imgur.com/vzDwkjg.jpeg"}, caption: desc }, { quoted: mek });
