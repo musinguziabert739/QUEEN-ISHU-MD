@@ -54,6 +54,10 @@ cmd({
 *➤🌟ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *➤🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
+*⭕QUEEN-ISHU NEW UPDATE*
+
+*🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e*
+
 *»»———-QUEEN ISHU MD-———-««*
 `;
 
