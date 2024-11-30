@@ -51,6 +51,10 @@ let madeSetting =`*╔═════ °❀•°✮SETTINGS°•❀°═══�
 
 > QUEEN ISHU MD
 ╚══════✮❁•°❀°•❁✮══════╝
+
+*⭕QUEEN-ISHU NEW UPDATE*
+
+*🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e*
 `
 
 
