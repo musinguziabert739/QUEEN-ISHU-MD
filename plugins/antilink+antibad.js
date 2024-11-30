@@ -5,7 +5,7 @@
 ██║▄▄ ██║ ██║   ██║ ██╔══╝   ██╔══╝   ██║╚██╗██        ███         ███    ███     ███    ███████████
 ╚██████╔╝ ╚██████╔╝ ███████╗ ███████╗ ██║ ╚████║       ███   █████████    ███     ███      ███████
 created by laksidu
- DONT COPY
+ 
 */
 
 const { cmd } = require('../command')
@@ -20,7 +20,7 @@ cmd({
 async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender }) => {
     try {
     
-        const badWords = ["wtf", "mia", "xxx","fuck","sex","huththa","pakaya","ponnaya","hutto","kariya","pakaya","hukapan","hukanna","hutto","xvdl","hutto","Hukapamm","lol"]
+        const badWords = ["wtf", "mia","පොන්නයා","හැමිනෙනවා","කැරියා", "හුත්තා", "හුත්තා","පකයා","fuck","sex","huththa","pakaya","ponnaya","hutto","kariya","pakaya","hukapan","hukanna","hutto","xvdl","hutto","Hukapamm","lol"]
         if (!isGroup || isAdmins || !isBotAdmins) return; 
       
         const lowerCaseMessage = body.toLowerCase();
