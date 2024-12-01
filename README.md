@@ -29,7 +29,7 @@
 
 # 2 PAIR CODE
 
-<a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+<a href="https://prabath-md-pair-web-v2-slk.koyeb.app/pair"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
