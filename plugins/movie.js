@@ -1,74 +1,54 @@
-/*
-███████╗  ██╗   ██╗ ███████╗ ███████╗ ███╗   ██╗       ███   █████████    ███     ███    ███     ███
-██╔═══██╗ ██║   ██║ ██╔════╝ ██╔════╝ ████╗  ██║       ███   ███          ███     ███    ███     ███
-██║   ██║ ██║   ██║ █████╗   █████╗   ██╔██╗ ██║       ███   █████████    ███████████    ███     ███
-██║▄▄ ██║ ██║   ██║ ██╔══╝   ██╔══╝   ██║╚██╗██        ███         ███    ███     ███    ███████████
-╚██████╔╝ ╚██████╔╝ ███████╗ ███████╗ ██║ ╚████║       ███   █████████    ███     ███      ███████
-created by laksidu
- DONT COPY
-*/
+const config = require('../config')
+const { cmd, commands } = require('../command')
+const axios = require('axios')
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
+const { storenumrepdata } = require('../lib/nonbutton')
+function formatNumber(num) {
+    return String(num).padStart(2, '0');
+} 
 
 
-const axios = require('axios');
-const { cmd } = require('../command');
-const config = require('../config'); // Ensure your API key is in config
-
-// Command to fetch movie details
 cmd({
-    pattern: "movie",
-    desc: "Fetch detailed information about a movie.",
-    category: "utility",
-    react: "🎞️",
+    pattern: "sd2",
+    react: "🎥",
+    desc: "Download movie for sinhalasub.lk",
+    category: "download",
+    use: '.sinhalasub < Movie Name >',
     filename: __filename
-}, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        const movieName = args.join(' ');
-        if (!movieName) {
-            return reply("📽️ Please provide the name of the movie.");
-        }
+},
+    
+async(conn, mek, m,{from, prefix, quoted, q, reply}) => {
+try{
 
-        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${config.OMDB_API_KEY}`;
-        const response = await axios.get(apiUrl);
-        const data = response.data;
-
-        if (data.Response === "False") {
-            return reply("! Movie not found.");
-        }
-
-        const movieInfo = `
-*╔══════✮❁•°♛°•❁✮ ══════╗*
-❤️️  𝐈𝐒𝐇𝐔 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐑𝐂𝐇 ❤️️
-*╚══════✮❁•°❀°•❁✮══════╝*
-
-*➤🌟ᴛɪᴛʟᴇ:* ${data.Title}
-*➤🌟ʏᴇᴀʀ:* ${data.Year}
-*➤🌟ʀᴀᴛᴇᴅ:* ${data.Rated}
-*➤🌟ʀᴇʟᴇᴀꜱᴇᴅ:* ${data.Released}
-*➤🌟ʀᴜɴᴛɪᴍᴇ:* ${data.Runtime}
-*➤🌟ɢᴇɴʀᴇ:* ${data.Genre}
-*➤🌟ᴅɪʀᴇᴄᴛᴏʀ:* ${data.Director}
-*➤🌟ᴡʀɪᴛᴇʀ:* ${data.Writer}
-*➤🌟ᴀᴄᴛᴏʀꜱ:* ${data.Actors}
-*➤🌟ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
-*➤🌟ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
-*➤🌟ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
-*➤🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
-
-*⭕QUEEN-ISHU NEW UPDATE*
-
-*🖇️https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e*
-
-*»»———-QUEEN ISHU MD-———-««*
-`;
-
-        const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
-
-        await conn.sendMessage(from, {
-            image: { url: imageUrl },
-            caption: `${movieInfo}\n> POWERD BY QUEEN ISHU MD`
-        }, { quoted: mek });
-    } catch (e) {
-        console.error(e);
-        reply(`❌ Error: ${e.message}`);
-    }
-});
+if(!q) return await reply('Mv name plz')
+	
+const oka_tama_prashne = await fetchJson(`https://dark-yasiya-api-new.vercel.app/movie/sinhalasub/search?text=${q}`)
+let hi_patiyo = oka_tama_prashne.result.data
+let numrep = []
+  
+		
+              let pakaya = `MOVIE-SEARCH
+`
+	
+	                hi_patiyo.forEach((movie, htta) => {
+				
+                  pakaya += ` *${formatNumber( htta + 1)} ||* ${movie.title}\n\n`
+				
+                  numrep.push(`${prefix}mds ${movie.link}` )
+                  })	      
+  
+	
+	 const mass = await conn.sendMessage(from, { image: { url: `https://i.postimg.cc/zvpdnfsK/1727229710389.jpg`  }, caption: `${pakaya}\n\n` }, { quoted: mek });
+	
+          const jsonmsg = {
+            key : mass.key,
+            numrep,
+            method : 'nondecimal'
+           }
+await storenumrepdata(jsonmsg)
+	
+} catch (e) {
+console.log(e)
+reply(e)
+}
+})
