@@ -35,7 +35,7 @@ let desc = `
 *║*
 *║⭕➥Title:${data.tile}* 
 *║⭕➥Duration:${data.timestamp}* 
-*║⭕➥*Views:* ${data.views}*
+*║⭕➥Views:${data.views}*
 *║⭕➥Url* ${data.url}* 
 *║⭕➥*Uploaded On:* ${data.ago}* 
 *║*
@@ -114,7 +114,7 @@ let desc = `
 *║⭕➥Title:${data.tile}* 
 *║⭕➥Duration:${data.timestamp}* 
 *║⭕➥*Views:* ${data.views}*
-*║⭕➥Url* ${data.url}* 
+*║⭕➥Url${data.url}
 *║⭕➥*Uploaded On:* ${data.ago}* 
 *║*
 *╚══════✮❁•°❀°•❁✮═══════╝*
