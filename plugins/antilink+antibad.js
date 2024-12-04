@@ -29,7 +29,7 @@ async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender 
         if (containsBadWord & config.ANTI_BAD === 'true') {
           await conn.sendMessage(from, { delete: mek.key }, { quoted: mek });
           await conn.sendMessage(from, { text: "⚠️BAD WORDS NOT ALLOWED⚠️ " }, { quoted: mek });
-          await conn.groupParticipantsUpdate(from, [sender], 'remove');
+         
         }
     } catch (error) {
         console.error(error)
