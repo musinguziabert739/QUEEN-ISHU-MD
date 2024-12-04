@@ -29,7 +29,7 @@
 
 # 2 PAIR CODE
 
-<a href=""><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+<a href="https://queen-iahu-pair-43af5d9cec43.herokuapp.com/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
