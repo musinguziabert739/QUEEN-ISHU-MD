@@ -28,11 +28,11 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*◆QUEEN-ISHU-MD SONG DOWNLOADER ◆*
+let desc = `
 
 *| ➤ TITLE - ${data.title}*
 
- > POWERED BY QUEEN-ISHU-MD
+> POWERED BY QUEEN-ISHU-MD
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
