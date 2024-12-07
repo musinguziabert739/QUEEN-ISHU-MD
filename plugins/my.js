@@ -30,17 +30,9 @@ const url = data.url
 
 let desc = `*◆QUEEN-ISHU-MD SONG DOWNLOADER ◆*
 
-| ➤ TITLE - ${data.title}
+*| ➤ TITLE - ${data.title}*
 
-| ➤ VIEWS - ${data.views}
-
-| ➤ DESCRIPTION - ${data.description}
-
-| ➤ TIME - ${data.timestamp}
-
-|➤ AGO - ${data.ago}
-
- ©CREATE BY LAKSIDU NIMSARA
+ > POWERED BY QUEEN-ISHU-MD
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
