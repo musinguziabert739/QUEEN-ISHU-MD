@@ -8,24 +8,4 @@ created by laksidu
  DONT COPY
 */
 
-
-const config = require('../config')
-const {cmd , commands} = require('../command')
-cmd({
-    pattern: "alive",
-    react: "👋",
-    desc: "Check bot online or no.",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
-
-//========================
-
+const _0x596b27=_0x42ca;(function(_0x2d27dc,_0x5a4127){const _0x1865c0=_0x42ca,_0x104323=_0x2d27dc();while(!![]){try{const _0x492946=-parseInt(_0x1865c0(0x1d0))/0x1+parseInt(_0x1865c0(0x1ce))/0x2*(-parseInt(_0x1865c0(0x1d6))/0x3)+parseInt(_0x1865c0(0x1d1))/0x4*(-parseInt(_0x1865c0(0x1dc))/0x5)+parseInt(_0x1865c0(0x1d9))/0x6+-parseInt(_0x1865c0(0x1d5))/0x7*(-parseInt(_0x1865c0(0x1cf))/0x8)+-parseInt(_0x1865c0(0x1d7))/0x9*(-parseInt(_0x1865c0(0x1db))/0xa)+-parseInt(_0x1865c0(0x1d2))/0xb*(-parseInt(_0x1865c0(0x1cb))/0xc);if(_0x492946===_0x5a4127)break;else _0x104323['push'](_0x104323['shift']());}catch(_0x320daa){_0x104323['push'](_0x104323['shift']());}}}(_0x1fde,0x2411d));function _0x42ca(_0x182618,_0x210048){const _0x1fde6b=_0x1fde();return _0x42ca=function(_0x42ca1c,_0x1cc224){_0x42ca1c=_0x42ca1c-0x1cb;let _0xb0a9e5=_0x1fde6b[_0x42ca1c];return _0xb0a9e5;},_0x42ca(_0x182618,_0x210048);}function _0x1fde(){const _0x26348d=['ALIVE_MSG','log','6503TkcjET','141sOnbXN','27XaCdAy','../command','255210RcWaZe','sendMessage','333570FeRQAS','135QPnQBe','3194076ngNWzz','main','ALIVE_IMG','6646RyiDyg','296InmDHS','262330vdRniZ','21196brSKqg','22LHCOCF'];_0x1fde=function(){return _0x26348d;};return _0x1fde();}const config=require('../config'),{cmd,commands}=require(_0x596b27(0x1d8));cmd({'pattern':'alive','react':'👋','desc':'Check\x20bot\x20online\x20or\x20no.','category':_0x596b27(0x1cc),'filename':__filename},async(_0x580de6,_0xdbbf75,_0x19ec4b,{from:_0x55da4c,quoted:_0x4ec3ba,body:_0xebf5b7,isCmd:_0x4f3ee5,command:_0x29b8e8,args:_0x9f9085,q:_0x5c6e2c,isGroup:_0x5ae561,sender:_0x690f70,senderNumber:_0x13d7bc,botNumber2:_0x68eaeb,botNumber:_0x297916,pushname:_0x46329e,isMe:_0x271614,isOwner:_0x4afc00,groupMetadata:_0x425fbd,groupName:_0x3afc1f,participants:_0x4f6905,groupAdmins:_0x5be5c1,isBotAdmins:_0x143d48,isAdmins:_0x9bede4,reply:_0x47150d})=>{const _0x11ad4e=_0x596b27;try{return await _0x580de6[_0x11ad4e(0x1da)](_0x55da4c,{'image':{'url':config[_0x11ad4e(0x1cd)]},'caption':config[_0x11ad4e(0x1d3)]},{'quoted':_0xdbbf75});}catch(_0x2fe1be){console[_0x11ad4e(0x1d4)](_0x2fe1be),_0x47150d(''+_0x2fe1be);}});
