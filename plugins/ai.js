@@ -7,26 +7,4 @@
 created by laksidu
  DONT COPY
 */
-
-
-const config = require('../config')
-const {cmd , commands} = require('../command')
-const { fetchJson } = require('../lib/functions')
-
-cmd({
-    pattern: "ai",
-    alias: ["gpt","bot"], 
-    react: "📑",
-    desc: "ai chat.",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-let data = await fetchJson(`https://chatgptforprabath-md.vercel.app/api/gptv1?q=${q}`)
-return reply(`${data.data}`)
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+const _0x3e850a=_0x55ec;(function(_0x424ab7,_0x5630f7){const _0x201076=_0x55ec,_0x1aca1c=_0x424ab7();while(!![]){try{const _0x46dc62=parseInt(_0x201076(0xf7))/0x1*(parseInt(_0x201076(0xfa))/0x2)+-parseInt(_0x201076(0x101))/0x3+parseInt(_0x201076(0xfc))/0x4+parseInt(_0x201076(0xfb))/0x5+-parseInt(_0x201076(0xf6))/0x6+parseInt(_0x201076(0xf4))/0x7+parseInt(_0x201076(0xf8))/0x8;if(_0x46dc62===_0x5630f7)break;else _0x1aca1c['push'](_0x1aca1c['shift']());}catch(_0x261657){_0x1aca1c['push'](_0x1aca1c['shift']());}}}(_0x3b31,0x904cb));const config=require(_0x3e850a(0x103)),{cmd,commands}=require(_0x3e850a(0x100)),{fetchJson}=require('../lib/functions');cmd({'pattern':'ai','alias':[_0x3e850a(0xfe),_0x3e850a(0xfd)],'react':'📑','desc':_0x3e850a(0xf5),'category':_0x3e850a(0x104),'filename':__filename},async(_0x2a5ded,_0x151157,_0x304f49,{from:_0x117016,quoted:_0x2d01dd,body:_0x5ccfdd,isCmd:_0x33959f,command:_0x40864a,args:_0x36eba7,q:_0x4ee801,isGroup:_0x1dc985,sender:_0x5d865a,senderNumber:_0x2be4d9,botNumber2:_0x5b486d,botNumber:_0x189bee,pushname:_0xc24ca9,isMe:_0x556fab,isOwner:_0x5dac0b,groupMetadata:_0x81485d,groupName:_0x21f175,participants:_0x322f28,groupAdmins:_0x15334f,isBotAdmins:_0x33e9a7,isAdmins:_0x2b84f9,reply:_0x512f09})=>{const _0x5aa243=_0x3e850a;try{let _0x2b0b9a=await fetchJson(_0x5aa243(0xf9)+_0x4ee801);return _0x512f09(''+_0x2b0b9a[_0x5aa243(0xff)]);}catch(_0x45054d){console[_0x5aa243(0x102)](_0x45054d),_0x512f09(''+_0x45054d);}});function _0x55ec(_0x273be0,_0x252643){const _0x3b310a=_0x3b31();return _0x55ec=function(_0x55ec7,_0x1cbff0){_0x55ec7=_0x55ec7-0xf4;let _0x13af17=_0x3b310a[_0x55ec7];return _0x13af17;},_0x55ec(_0x273be0,_0x252643);}function _0x3b31(){const _0x3e2b90=['main','410697zKeWyA','ai\x20chat.','3490038sBEPON','50187qJcFMw','10698880OBGeSA','https://chatgptforprabath-md.vercel.app/api/gptv1?q=','8OJgqQn','1257320kofOWx','1388104TVXRnU','bot','gpt','data','../command','3067635vZSFmw','log','../config'];_0x3b31=function(){return _0x3e2b90;};return _0x3b31();}
